@@ -1,5 +1,6 @@
 {
   "name": "axe-html",
+  "description": "Analyze html strings with axe-core a11y toolkit via node.js",
   "version": "0.0.1",
   "main": "./dist/mod.js",
   "types": "./dist/mod.d.ts",
@@ -18,5 +19,25 @@
     "axe-core": "4.7.2",
     "ts-node": "10.9.1",
     "typescript": "5.1.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdaringe/axe-html.git"
+  },
+  "keywords": [
+    "axe",
+    "html",
+    "web",
+    "a11y",
+    "accessibility",
+    "node",
+    "node.js",
+    "browser"
+  ],
+  "author": "cdaringe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdaringe/axe-html/issues"
+  },
+  "homepage": "https://github.com/cdaringe/axe-html#readme"
 }
