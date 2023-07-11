@@ -10,10 +10,10 @@ export const analyze = async (
   }
 ) => {
   const window = new hd.Window({
-    ...opts?.windowOptions,
     url: "https://a11y.axe-html.site",
     width: 1024,
     height: 768,
+    ...opts?.windowOptions,
   });
   // https://github.com/capricorn86/happy-dom/issues/978
   Object.assign(window.Node.prototype, { isConnected: false });
@@ -30,5 +30,3 @@ export const analyze = async (
   const out = await axe.run();
   return out;
 };
-
-analyze("<img src='ok'></img>");
